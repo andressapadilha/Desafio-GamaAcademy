@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--METADADOS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobsNET</title>
+</head>
+
+<body>
+    <form>
+        <h1>DADOS PESSOAIS</h1>
+        <hr>
+        <fieldset class="grupo">
+            <div>
+                <label>
+                    Nome Completo
+                </label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <label>
+                Cargo Pretendido
+            </label>
+            <input type="text" name="cargo" id="cargo">
+        </fieldset>
+        <fieldset>
+            <label>
+                Data de nascimento
+            </label>
+            <input type="date" name="nascimento" id="nascimento">
+            <label for="ecivil">
+                Estado Civil
+            </label>
+            <select name="ecivil" id="ecivil">
+                <option value="1" selected disabled>Selecione</option>
+                <option value="2">Solteiro(a)</option>
+                <option value="3">Casado(a)</option>
+                <option value="4">Viúvo(a)</option>
+                <option value="5">União Estável</option>
+                <option value="6">Divorciado(a)</option>
+                <option value="7">Separado(a)</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="sexo">
+                Sexo
+            </label>
+            <select name="sexo" id="sexo">
+                <option value="1" selected disabled>Selecione</option>
+                <option value="2">Masculino</option>
+                <option value="3">Feminino</option>
+                <option value="4">Não-binário</option>
+                <option value="5">Transgênero</option>
+            </select>
+            <label>
+                Endereço
+            </label>
+            <input type="text" name="endereço" id="endereço">
+            <label>
+                Bairro
+            </label>
+            <input type="text" name="bairro" id="bairro">
+            <label>
+                №
+            </label>
+            <input type="text" name="num" id="num">
+        </fieldset>
+        <fieldset>
+            <label>
+                Cidade
+            </label>
+            <input type="text" name="cidade" id="cidade">
+            <label>
+                Cep
+            </label>
+            <input type="text" name="cep" id="cep" maxlength="8">
+        </fieldset>
+        <fieldset>
+            <label>
+                Telefone fixo
+            </label>
+            <input type="text" name="tele1" id="tele1" maxlength="10">
+            <label>
+                Celular
+            </label>
+            <input type="text" name="celular" id="celular">
+        </fieldset>
+        <fieldset>
+            <label>
+                E-mail
+            </label>
+            <input type="email" name="email" id="email">
+            <label>
+            </label>
+        </fieldset>
+        <h1>DOCUMENTOS</h1>
+        <hr>
+
+        <fieldset>
+            <label>
+                Identidade
+            </label>
+            <input type="text" name="identidade" id="identidade" required maxlength="10">
+            <label>
+                CPF
+            </label>
+            <input type="text" name="cpf" id="cpf" required maxlength="11">
+        </fieldset>
+        <fieldset>
+            <label>
+                Possui veículo
+            </label>
+            <select name="veiculo" id="veiculo">
+                <option value="1" selected disabled>Selecione</option>
+                <option value="2">Sim</option>
+                <option value="3">Não</option>
+            </select>
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+
+</html>
