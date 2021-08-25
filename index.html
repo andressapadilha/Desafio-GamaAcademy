@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" type="textcss" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <title>JobsNET</title>
 </head>
@@ -27,13 +27,14 @@
                 <label>
                     Nome Completo
                 </label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
             </div>
+
             <div class="campo">
                 <label>
                     Cargo Pretendido
                 </label>
-                <input type="text" name="cargo" id="cargo">
+                <input type="text" name="cargo" id="cargo" required>
             </div>
         </fieldset>
         <fieldset class="grupo">
@@ -41,7 +42,7 @@
                 <label>
                     Data de nascimento
                 </label>
-                <input type="date" name="nascimento" id="nascimento">
+                <input type="date" name="nascimento" id="nascimento" required>
             </div>
             <div class="campo">
                 <label for="ecivil">
@@ -75,19 +76,21 @@
                 <label>
                     Endereço
                 </label>
-                <input type="text" name="endereço" id="endereço">
+                <input type="text" name="endereço" id="endereço" required>
             </div>
+        </fieldset>
+        <fieldset class="grupo">
             <div class="campo">
                 <label>
                     Bairro
                 </label>
-                <input type="text" name="bairro" id="bairro">
+                <input type="text" name="bairro" id="bairro" required>
             </div>
             <div class="campo">
                 <label>
                     №
                 </label>
-                <input type="text" name="num" id="num">
+                <input type="text" name="num" id="num" required>
             </div>
         </fieldset>
         <fieldset class="grupo">
@@ -95,13 +98,13 @@
                 <label>
                     Cidade
                 </label>
-                <input type="text" name="cidade" id="cidade">
+                <input type="text" name="cidade" id="cidade" required>
             </div>
             <div class="campo">
                 <label>
                     Cep
                 </label>
-                <input type="text" name="cep" id="cep" maxlength="8">
+                <input type="text" name="cep" id="cep" maxlength="8" required>
             </div>
         </fieldset>
         <fieldset class="grupo">
@@ -109,13 +112,13 @@
                 <label>
                     Telefone fixo
                 </label>
-                <input type="text" name="tele1" id="tele1" maxlength="10">
+                <input type="text" name="tele1" id="tele1" maxlength="10" required>
             </div>
             <div class="campo">
                 <label>
                     Celular
                 </label>
-                <input type="text" name="celular" id="celular">
+                <input type="text" name="celular" id="celular" required>
             </div>
         </fieldset>
         <fieldset class="grupo">
@@ -123,10 +126,10 @@
                 <label>
                     E-mail
                 </label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
             </div>
         </fieldset>
-        <div class="nomearea">
+        <div class="areanome">
             <h1>DOCUMENTOS</h1>
             <hr>
         </div>
@@ -157,7 +160,7 @@
                 </select>
             </div>
         </fieldset>
-
+       <button type="submit" id="botao">Enviar</button>
 
 
     </form>
