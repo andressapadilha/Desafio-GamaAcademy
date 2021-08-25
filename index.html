@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <title>JobsNET</title>
 </head>
@@ -19,24 +19,28 @@
 <body>
     <form>
         <div class="areanome">
-            <h1>DADOS PESSOAIS</h1>
+            <h1>Dados Pessoais</h1>
             <hr>
         </div>
+
         <fieldset class="grupo">
             <div class="campo">
                 <label>
-                    Nome Completo
+                    Nome 
                 </label>
                 <input type="text" name="nome" id="nome" required>
             </div>
 
             <div class="campo">
                 <label>
-                    Cargo Pretendido
+                    Sobrenome
                 </label>
-                <input type="text" name="cargo" id="cargo" required>
+                <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
+
+
         </fieldset>
+
         <fieldset class="grupo">
             <div class="campo">
                 <label>
@@ -44,6 +48,7 @@
                 </label>
                 <input type="date" name="nascimento" id="nascimento" required>
             </div>
+
             <div class="campo">
                 <label for="ecivil">
                     Estado Civil
@@ -57,9 +62,9 @@
                     <option value="6">Divorciado(a)</option>
                     <option value="7">Separado(a)</option>
                 </select>
+
             </div>
-        </fieldset>
-        <fieldset class="grupo">
+
             <div class="campo">
                 <label for="sexo">
                     Sexo
@@ -70,15 +75,41 @@
                     <option value="3">Feminino</option>
                     <option value="4">Não-binário</option>
                     <option value="5">Transgênero</option>
-                </select>
+                </select>   
             </div>
-            <div class="campo">
-                <label>
-                    Endereço
-                </label>
-                <input type="text" name="endereço" id="endereço" required>
-            </div>
+
         </fieldset>
+
+        <fieldset class="grupo">
+            </fieldset>
+            
+            <div class="areanome">
+                <h1>Endereço</h1>
+                <hr>
+            </div>
+
+            <fieldset class="grupo">
+            
+                <div class="campo">
+                    <label>
+                        Cep
+                    </label>
+                    <input type="text" name="cep" id="cep" maxlength="8" required>
+                </div>
+
+                <div class="campo">
+                    <label>
+                        Endereço
+                    </label>
+                    <input type="text" name="endereço" id="endereço" required>
+                </div>
+
+ 
+            </div>
+
+
+        </fieldset>
+
         <fieldset class="grupo">
             <div class="campo">
                 <label>
@@ -92,21 +123,41 @@
                 </label>
                 <input type="text" name="num" id="num" required>
             </div>
+
         </fieldset>
+
         <fieldset class="grupo">
+            <div class="campo">
+                <label>
+                    Logradouro
+                </label>    
+                <input type="text" name="complemento" id="complemento" required>
+            </div>
+
             <div class="campo">
                 <label>
                     Cidade
                 </label>
                 <input type="text" name="cidade" id="cidade" required>
             </div>
+
+        </fieldset>
+
+        <fieldset class="grupo">
             <div class="campo">
                 <label>
-                    Cep
+                    Estado
                 </label>
-                <input type="text" name="cep" id="cep" maxlength="8" required>
+                <input type="text" name="estado" id="estado" required>
             </div>
+           
         </fieldset>
+
+        <div class="areanome">
+            <h1>Contato</h1>
+            <hr>
+        </div>
+
         <fieldset class="grupo">
             <div class="campo">
                 <label>
@@ -114,13 +165,16 @@
                 </label>
                 <input type="text" name="tele1" id="tele1" maxlength="10" required>
             </div>
+
             <div class="campo">
                 <label>
                     Celular
                 </label>
-                <input type="text" name="celular" id="celular" required>
+                <input type="text" name="celular" id="celular" maxlength="11" required>
             </div>
+
         </fieldset>
+
         <fieldset class="grupo">
             <div class="campo">
                 <label>
@@ -128,26 +182,31 @@
                 </label>
                 <input type="email" name="email" id="email" required>
             </div>
+
         </fieldset>
+
         <div class="areanome">
-            <h1>DOCUMENTOS</h1>
+            <h1>Documentos</h1>
             <hr>
         </div>
 
         <fieldset class="grupo">
             <div class="campo">
                 <label>
-                    Identidade
-                </label>
-                <input type="text" name="identidade" id="identidade" required maxlength="10">
-            </div>
-            <div class="campo">
-                <label>
                     CPF
                 </label>
                 <input type="text" name="cpf" id="cpf" required maxlength="11">
             </div>
+            
+            <div class="campo">
+                <label>
+                    Identidade
+                </label>
+                <input type="text" name="identidade" id="identidade" required maxlength="10">
+            </div>
+
         </fieldset>
+
         <fieldset class="grupo">
             <div class="campo">
                 <label>
@@ -159,8 +218,9 @@
                     <option value="3">Não</option>
                 </select>
             </div>
+
         </fieldset>
-       <button type="submit" id="botao">Enviar</button>
+        <button type="submit" id="botao">Enviar</button>
 
 
     </form>
