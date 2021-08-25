@@ -1,0 +1,19 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nomearea h1  {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+hr {
+    width: 100%;
+}
+
+form hr {
+    width: 53%;
+}
