@@ -151,10 +151,31 @@ fieldset.grupo .campo {
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-
-}
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    #botao {
+        margin-left: 12.5em;
+        width: 28%;
+    }
+
+    body {
+        margin-left: 13%;
+        margin-top: 3%;
+    }
+
+    .areanome h1  {
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+
+    hr {
+        width: 180%;
+    }
+    
+    form hr {
+        width: 80%;
+    }
+
 
 }
