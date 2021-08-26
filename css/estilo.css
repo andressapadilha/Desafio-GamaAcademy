@@ -127,22 +127,22 @@ fieldset.grupo .campo {
 @media only screen and (min-width: 361px) and (max-width: 480px) {
 
     #botao {
-        margin-left: 5em;
+        margin-left: 4em;
         width: 28%;
     }
 
     body {
-        margin-left: 12%;
+        margin-left: 16%;
         margin-top: 2%;
     }
 
     .areanome h1  {
-        font-size: 1.5em;
+        font-size: 1.8em;
         font-weight: 500;
     }
 
     hr {
-        width: 100%;
+        width: 130%;
     }
     
     form hr {
