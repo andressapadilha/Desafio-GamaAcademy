@@ -128,16 +128,16 @@ fieldset.grupo .campo {
 
     #botao {
         margin-left: 5em;
-        width: 18%;
+        width: 28%;
     }
 
     body {
-        margin-left: 4.8%;
+        margin-left: 12%;
         margin-top: 2%;
     }
 
     .areanome h1  {
-        font-size: 1.3em;
+        font-size: 1.5em;
         font-weight: 500;
     }
 
@@ -146,7 +146,7 @@ fieldset.grupo .campo {
     }
     
     form hr {
-        width: 75%;
+        width: 80%;
     }
 
 }
