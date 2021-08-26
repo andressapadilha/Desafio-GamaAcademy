@@ -1,4 +1,3 @@
-
 *{
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -6,7 +5,7 @@
 }
 
 .areanome h1  {
-    font-size: 1.55em;
+    font-size: 3em;
     font-weight: 500;
 }
 
@@ -64,7 +63,7 @@ fieldset.grupo .campo {
 }
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo input[type="date"] {
-    padding: 0.15em;
+    padding: 0.3em;
     border: 1px solid #F9DBBD;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
@@ -77,7 +76,7 @@ fieldset.grupo .campo {
 }
 
 #botao {
-    font-size: 1.2em;
+    font-size: 1.4em;
     background: #DA627D;
     border: none;
     margin-bottom: 1em;
@@ -99,3 +98,18 @@ fieldset.grupo .campo {
     transition: 500ms;
 }
 
+@media only screen and (max-width: 380px) {
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
